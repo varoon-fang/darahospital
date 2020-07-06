@@ -3,7 +3,7 @@
 <body>
 
   <!-- ======= Top Bar ======= -->
-  @include('layout/top-bar')
+  @include('layout/top-bar-inner')
 
   <main id="main">
     <!-- ======= Breadcrumbs Section ======= -->

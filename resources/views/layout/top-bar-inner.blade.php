@@ -47,13 +47,13 @@
             </ul>
     
           </li>
-          <li><a href="#activity">กิจกรรม</a></li>
-          <li><a href="#news">ข่าวสาร</a></li>
-          <li><a href="#about">เกี่ยวกับเรา</a></li>
-          <li><a href="#services">งานบริการ</a></li>
+          <li><a href="{{ URL::to('activity') }}">กิจกรรม</a></li>
+          <li><a href="{{ URL::to('news') }}">ข่าวสาร</a></li>
+          <li><a href="{{ URL::to('home#about') }}">เกี่ยวกับเรา</a></li>
+          <li><a href="{{ URL::to('home#services') }}">งานบริการ</a></li>
           {{-- <li><a href="#departments">Departments</a></li> --}}
-          <li><a href="#doctors">ผู้บริหาร</a></li>
-          <li><a href="#contact">ติดต่อเรา</a></li>
+          <li><a href="{{ URL::to('home#doctors') }}">ผู้บริหาร</a></li>
+          <li><a href="{{ URL::to('home#contact') }}">ติดต่อเรา</a></li>
 
         </ul>
       </nav><!-- .nav-menu -->

@@ -514,14 +514,11 @@
         </div>
 
         <div class="owl-carousel gallery-carousel" data-aos="fade-up" data-aos-delay="100">
-          <a href="assets/img/gallery/gallery-1.jpg" class="venobox" data-gall="gallery-carousel"><img src="assets/img/gallery/gallery-1.jpg" alt=""><p>Test Text1</p></a>
-          <a href="assets/img/gallery/gallery-2.jpg" class="venobox" data-gall="gallery-carousel"><img src="assets/img/gallery/gallery-2.jpg" alt=""><p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur </p></a>
-          <a href="assets/img/gallery/gallery-3.jpg" class="venobox" data-gall="gallery-carousel"><img src="assets/img/gallery/gallery-3.jpg" alt=""><p>Test Text3</p></a>
-          <a href="assets/img/gallery/gallery-4.jpg" class="venobox" data-gall="gallery-carousel"><img src="assets/img/gallery/gallery-4.jpg" alt=""><p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur </p></a>
-          <a href="assets/img/gallery/gallery-5.jpg" class="venobox" data-gall="gallery-carousel"><img src="assets/img/gallery/gallery-5.jpg" alt=""><p>Test Text5</p></a>
-          <a href="assets/img/gallery/gallery-6.jpg" class="venobox" data-gall="gallery-carousel"><img src="assets/img/gallery/gallery-6.jpg" alt=""><p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur </p></a>
-          <a href="assets/img/gallery/gallery-7.jpg" class="venobox" data-gall="gallery-carousel"><img src="assets/img/gallery/gallery-7.jpg" alt=""><p>Test Text7</p></a>
-          <a href="assets/img/gallery/gallery-8.jpg" class="venobox" data-gall="gallery-carousel"><img src="assets/img/gallery/gallery-8.jpg" alt=""><p>Test Text8</p></a>
+          <a href="{{ URL::to('activity-detail')}}"><img src="assets/img/gallery/gallery-1.jpg" alt=""><p>Test Text1</p></a>
+          <a href="{{ URL::to('activity-detail')}}"><img src="assets/img/gallery/gallery-2.jpg" alt=""><p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur </p></a>
+          <a href="{{ URL::to('activity-detail')}}"><img src="assets/img/gallery/gallery-3.jpg" alt=""><p>Test Text3</p></a>
+          <a href="{{ URL::to('activity-detail')}}"><img src="assets/img/gallery/gallery-4.jpg" alt=""><p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur </p></a>
+          <a href="{{ URL::to('activity-detail')}}"><img src="assets/img/gallery/gallery-5.jpg" alt=""><p>Test Text5</p></a>
         </div>
 
       </div>
