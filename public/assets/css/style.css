@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #3fbbc0;
+  color: #da3807;
 }
 
 a:hover {
@@ -26,6 +26,15 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
 }
 
+.activity-bg {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.activity {
+  margin-top: 15px;
+
+}
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -45,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #3fbbc0;
+  border: 6px solid #da3807;
   border-top-color: #ecf8f9;
   border-radius: 50%;
   width: 60px;
@@ -91,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #3fbbc0;
+  background: #da3807;
   color: #fff;
   transition: all 0.4s;
 }
@@ -248,7 +257,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #3fbbc0;
+  color: #da3807;
 }
 
 .nav-menu .drop-down > a:after {
@@ -368,7 +377,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #3fbbc0;
+  color: #da3807;
   text-decoration: none;
 }
 
@@ -457,7 +466,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 50px;
-  border-top: 4px solid #3fbbc0;
+  border-top: 4px solid #da3807;
 }
 
 @media (max-width: 1200px) {
@@ -550,7 +559,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .carousel-indicators li.active {
   opacity: 1;
-  background: #3fbbc0;
+  background: #da3807;
 }
 
 #hero .btn-get-started {
@@ -566,7 +575,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  background: #3fbbc0;
+  background: #da3807;
 }
 
 #hero .btn-get-started:hover {
@@ -632,7 +641,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #3fbbc0;
+  background: #da3807;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -728,7 +737,7 @@ section {
 }
 
 .featured-services .icon-box:hover::before {
-  background: #3fbbc0;
+  background: #da3807;
   top: 0;
   border-radius: 0px;
 }
@@ -740,7 +749,7 @@ section {
 .featured-services .icon i {
   font-size: 48px;
   line-height: 1;
-  color: #3fbbc0;
+  color: #da3807;
   transition: all 0.3s ease-in-out;
 }
 
@@ -772,7 +781,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: #3fbbc0;
+  background: #da3807;
   color: #fff;
   background-size: cover;
   padding: 60px 0;
@@ -799,7 +808,7 @@ section {
 
 .cta .cta-btn:hover {
   background: #fff;
-  color: #3fbbc0;
+  color: #da3807;
 }
 
 /*--------------------------------------------------------------
@@ -822,7 +831,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #3fbbc0;
+  color: #da3807;
 }
 
 .about .content p:last-child {
@@ -845,7 +854,7 @@ section {
 .counts .count-box i {
   display: block;
   font-size: 30px;
-  color: #3fbbc0;
+  color: #da3807;
   float: left;
 }
 
@@ -876,7 +885,7 @@ section {
 }
 
 .counts .count-box a:hover {
-  color: #3fbbc0;
+  color: #da3807;
 }
 
 /*--------------------------------------------------------------
@@ -891,7 +900,7 @@ section {
 .features .icon-box i {
   font-size: 48px;
   float: left;
-  color: #3fbbc0;
+  color: #da3807;
 }
 
 .features .icon-box p {
@@ -927,7 +936,7 @@ section {
   background: #fff;
   border-radius: 50%;
   transition: 0.5s;
-  color: #3fbbc0;
+  color: #da3807;
   font-size: 40px;
   overflow: hidden;
   padding-top: 20px;
@@ -952,7 +961,7 @@ section {
 }
 
 .services .title a:hover {
-  color: #3fbbc0;
+  color: #da3807;
 }
 
 .services .title::after {
@@ -961,7 +970,7 @@ section {
   display: block;
   width: 50px;
   height: 2px;
-  background: #3fbbc0;
+  background: #da3807;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -1040,7 +1049,7 @@ section {
 }
 
 .appointment .php-email-form input:focus, .appointment .php-email-form textarea:focus, .appointment .php-email-form select:focus {
-  border-color: #3fbbc0;
+  border-color: #da3807;
 }
 
 .appointment .php-email-form input, .appointment .php-email-form select {
@@ -1052,7 +1061,7 @@ section {
 }
 
 .appointment .php-email-form button[type="submit"] {
-  background: #3fbbc0;
+  background: #da3807;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1091,16 +1100,16 @@ section {
 }
 
 .departments .nav-link:hover h4 {
-  color: #3fbbc0;
+  color: #da3807;
 }
 
 .departments .nav-link.active {
   background: #f7fcfc;
-  border-color: #3fbbc0;
+  border-color: #da3807;
 }
 
 .departments .nav-link.active h4 {
-  color: #3fbbc0;
+  color: #da3807;
 }
 
 .departments .tab-pane.active {
@@ -1126,7 +1135,7 @@ section {
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #3fbbc0;
+  color: #da3807;
 }
 
 .departments .tab-pane p {
@@ -1229,7 +1238,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #3fbbc0 !important;
+  background-color: #da3807 !important;
 }
 
 @media (max-width: 767px) {
@@ -1276,7 +1285,7 @@ section {
 }
 
 .doctors .member .social a:hover {
-  color: #3fbbc0;
+  color: #da3807;
 }
 
 .doctors .member .social i {
@@ -1340,7 +1349,7 @@ section {
 }
 
 .gallery .owl-dot.active {
-  background-color: #3fbbc0 !important;
+  background-color: #da3807 !important;
 }
 
 .gallery .gallery-carousel .owl-stage-outer {
@@ -1348,7 +1357,7 @@ section {
 }
 
 .gallery .gallery-carousel .center {
-  border: 6px solid #3fbbc0;
+  border: 6px solid #da3807;
   margin: -10px;
   box-sizing: content-box;
   padding: 4px;
@@ -1381,7 +1390,7 @@ section {
 
 .pricing h4 {
   font-size: 36px;
-  color: #3fbbc0;
+  color: #da3807;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
@@ -1413,7 +1422,7 @@ section {
 }
 
 .pricing ul i {
-  color: #3fbbc0;
+  color: #da3807;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1431,7 +1440,7 @@ section {
 }
 
 .pricing .btn-buy {
-  background: #3fbbc0;
+  background: #da3807;
   display: inline-block;
   padding: 8px 35px 10px 35px;
   border-radius: 4px;
@@ -1450,7 +1459,7 @@ section {
 
 .pricing .featured h3 {
   color: #fff;
-  background: #3fbbc0;
+  background: #da3807;
 }
 
 .pricing .advanced {
@@ -1462,7 +1471,7 @@ section {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #3fbbc0;
+  background: #da3807;
   color: #fff;
 }
 
@@ -1485,7 +1494,7 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: #3fbbc0;
+  font-family: #da3807;
   font-size: 18px;
   font-weight: 500;
 }
@@ -1503,7 +1512,7 @@ section {
 }
 
 .faq .faq-list a.collapse {
-  color: #3fbbc0;
+  color: #da3807;
 }
 
 .faq .faq-list a.collapsed {
@@ -1511,7 +1520,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #3fbbc0;
+  color: #da3807;
 }
 
 .faq .faq-list a.collapsed i::before {
@@ -1530,7 +1539,7 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #3fbbc0;
+  color: #da3807;
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #c5ebec;
@@ -1612,7 +1621,7 @@ section {
 }
 
 .contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
-  background-color: #3fbbc0;
+  background-color: #da3807;
 }
 
 .contact .php-email-form input {
@@ -1624,7 +1633,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #3fbbc0;
+  background: #da3807;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1691,7 +1700,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #3fbbc0;
+  background: #da3807;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1727,7 +1736,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #3fbbc0;
+  color: #da3807;
   font-size: 18px;
   line-height: 1;
 }
@@ -1750,7 +1759,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #3fbbc0;
+  color: #da3807;
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1777,7 +1786,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #3fbbc0;
+  background: #da3807;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;

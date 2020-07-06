@@ -12,5 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
+});
+
+Route::get('/activity', function () {
+    return view('activity');
+});
+
+Route::get('/activity-detail', function () {
+    return view('activity-detail');
 });
