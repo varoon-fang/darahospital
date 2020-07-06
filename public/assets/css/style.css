@@ -18,7 +18,7 @@ a {
 }
 
 a:hover {
-  color: #65c9cd;
+  color: #da3807;
   text-decoration: none;
 }
 
@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top i:hover {
-  background: #5ec6ca;
+  background: #da3807;
   color: #fff;
 }
 
@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #DA3808;
+  background: #7b0404;
   color: #fff;
   height: 40px;
   font-size: 16px;
@@ -220,7 +220,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #DA3808;
+  color: #7b0404;
 }
 
 .nav-menu .drop-down ul {
@@ -303,7 +303,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Appointment Button */
 .appointment-btn {
   margin-left: 25px;
-  background: #DA3808;
+  background: #7b0404;
   color: #fff;
   border-radius: 4px;
   padding: 8px 25px;
@@ -314,7 +314,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .appointment-btn:hover {
-  background: #65c9cd;
+  background: #da3807;
   color: #fff;
 }
 
@@ -579,7 +579,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #65c9cd;
+  background: #da3807;
 }
 
 @media (max-width: 992px) {
@@ -1454,7 +1454,7 @@ section {
 }
 
 .pricing .btn-buy:hover {
-  background: #65c9cd;
+  background: #da3807;
 }
 
 .pricing .featured h3 {
@@ -1642,7 +1642,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #65c9cd;
+  background: #da3807;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1713,7 +1713,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #65c9cd;
+  background: #da3807;
   text-decoration: none;
 }
 
@@ -1793,7 +1793,7 @@ section {
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #65c9cd;
+  background: #da3807;
 }
 
 #footer .copyright {
